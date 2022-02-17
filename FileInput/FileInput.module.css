@@ -1,0 +1,56 @@
+.InputSelect {
+  width: 100%;
+  border: 1px #0877b5 solid;
+  border-radius: 0.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0em;
+}
+.ContainerInput {
+  display: flex;
+  color: #0877b5;
+  flex-direction: row;
+  height: 50px;
+  padding: 0.5em;
+}
+.InputText {
+  margin: 0;
+  font-size: 1em;
+  margin-left: 1em;
+  font-style: normal;
+  color: #686762;
+  height: 20px;
+}
+.Input {
+  border-radius: 0.5em;
+  width: 100%;
+  border: 1px #0877b5 solid;
+  padding: 0.5em;
+  background-color: rgba(8, 119, 181, 0.04);
+  cursor: pointer;
+}
+@media screen  and (max-width: 810px){
+  .InputText{
+    font-size: 0.7em;
+  }
+  .InputSelect{
+    font-size: 0.7em;
+  }
+}
+@media screen  and (max-width: 600px){
+  .InputText{
+    font-size: 1em;
+  }
+  .InputSelect{
+    font-size: 1em;
+  }
+}
+@media screen  and (max-width: 500px){
+  .InputText{
+    font-size: 0.7em;
+  }
+  .InputSelect{
+    font-size: 0.7em;
+  }
+}
